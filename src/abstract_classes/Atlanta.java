@@ -1,0 +1,15 @@
+package abstract_classes;
+
+public class Atlanta extends City{
+double doublegrowth = 2*growthRate;
+	public Atlanta(int population, double growthRate) {
+		super(population, growthRate);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	double getAnnualTaxes() {
+		// TODO Auto-generated method stub
+		return population*growthRate*doublegrowth;
+	}
+}

@@ -7,7 +7,9 @@ public abstract class SpecialString implements TextFunkifier{
 		this.s = funkifyText(s);
 	}
 	
+
 	public String toString() {
 		return s;
 	}
+
 }
